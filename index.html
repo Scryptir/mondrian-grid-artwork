@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Mielke | Mondrian Background</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: slategray;
+        }
+        .grid-container {
+            display: grid;
+            width: 1280px;
+            height: 720px;
+            grid-template-columns: 1.5fr 2fr 1fr 1fr 1.5fr 1.5fr 1.5fr 1.5fr 2fr 2fr 1.5fr;
+            grid-template-rows: repeat(8, 1fr);
+            gap: 9px;
+            background-color: #1D1D1D;
+            border: 5px solid black;
+            filter: brightness(.96);
+        }
+        .yellow1 {
+            background-color: yellow;
+           grid-row: 1 / 4;
+        }
+
+        .yellow2 {
+            background-color: yellow;
+        }
+
+        .yellow3 {
+            background-color: yellow;
+            grid-area: 1/7/3/9;
+        }
+
+        .yellow4 {
+            background-color: yellow;
+            grid-area: 6/11/9/12;
+        }
+
+        .yellow5 {
+            background-color: yellow;
+            grid-area: 7/5/9/7;
+        }
+
+        .yellow6 {
+            background-color: yellow;
+        }
+
+        .white1 {
+            background-color: white;
+            grid-area: 1/2/3/3
+        }
+
+        .white2 {
+            background-color: white;
+        }
+
+        .white3 {
+            background-color: white;
+            grid-area: 1 / 11/ 3 / 12 
+        }
+
+        .white4 {
+            background-color: white;
+            grid-column: 3 / 5;
+        }
+
+        .white5 {
+            background-color: white;
+            grid-row: 3/5;
+        }
+
+        .white6 {
+            background-color: white;
+            grid-row: 3/5;
+        }
+
+        .white7 {
+            background-color: white;
+            grid-area: 3/11/6/12;
+        }
+
+        .white8 {
+            background-color: white;
+            grid-area: 4/1/7/2;
+        }
+
+        .white9 {
+            background-color: white;
+            grid-area: 4/3/5/5;
+        }
+
+        .white10 {
+            background-color: white;
+            grid-area: 4/5/5/7;
+        }
+
+        .white11 {
+            background-color: white;
+            grid-area: 5/5/7/6;
+        }
+
+        .white12 {
+            background-color: white;
+            grid-area: 5/6/7/7;
+        }
+
+        .white13 {
+            background-color: white;
+            grid-column: 7/9;
+        }
+
+        .white14 {
+            background-color: white;
+        }
+
+        .white15 {
+            background-color: white;
+            grid-area: 6/9/7/10;
+        }
+
+        .white16 {
+            background-color: white;
+            grid-area: 7/1/9/2;
+        }
+
+        .white17 {
+            background-color: white;
+            grid-area: 7/10/9/11;
+        }
+
+        .red1 {
+            background-color: red;
+            grid-column: 5/7;
+        }
+
+        .red2 {
+            background-color: red;
+            grid-area: 5/2/9/5;
+        }
+
+        .red3 {
+            background-color: red;
+            grid-area: 6/7/8/9;
+        }
+
+        .blue1 {
+            background-color: blue;
+            grid-area: 1/9/5/11;
+        }
+
+        .blue2 {
+            background-color: blue;
+            grid-area: 2 / 5 / 4 / 7;
+        }
+
+        .blue3 {
+            background-color: blue;
+            grid-area: 8/7/9/9;
+        }
+
+        .black1 {
+            background-color: black;
+            grid-column: 3 / 5;
+        }
+
+        .black2 {
+            background-color: black;
+            grid-area: 3 / 2 / 5 / 3;
+        }
+
+        .black3 {
+            background-color: black;
+            grid-area: 5/10/7/11;
+        }
+
+        .black4 {
+            background-color: black;
+        }
+    </style>
+<body>
+    <div class="grid-container">
+        <div class="yellow1"></div>
+        <div class="white1"></div>
+        <div class="yellow2"></div>
+        <div class="white2"></div>
+        <div class="red1"></div>
+        <div class="yellow3"></div>
+        <div class="blue1"></div>
+        <div class="white3"></div>
+        <div class="black1"></div>
+        <div class="blue2"></div>
+        <div class="black2"></div>
+        <div class="white4"></div>
+        <div class="white5"></div>
+        <div class="white6"></div>
+        <div class="white7"></div>
+        <div class="white8"></div>
+        <div class="white9"></div>
+        <div class="white10"></div>
+        <div class="red2"></div>
+        <div class="white11"></div>
+        <div class="white12"></div>
+        <div class="white13"></div>
+        <div class="white14"></div>
+        <div class="black3"></div>
+        <div class="red3"></div>
+        <div class="white15"></div>
+        <div class="yellow4"></div>
+        <div class="white16"></div>
+        <div class="yellow5"></div>
+        <div class="black4"></div>
+        <div class="white17"></div>
+        <div class="blue3"></div>
+        <div class="yellow6"></div>
+    </div>
+</body>
+</html>
